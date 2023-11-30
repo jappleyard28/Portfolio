@@ -13,7 +13,8 @@ const Projects = () => {
 
                 <Project title="AI Chatbot"
                 tech_stack="Python, BeautifulSoup, Tensorflow, Tkinter"
-                description="This is a program that utilises web scraping to compare different products"
+                description="Group project using scrum to develop an Intelligent Chatbot for train services using Python. I Created a Graphical User Interface and utilised web scraping 
+                to retrieve relevant ticket data. The project also used a knowledge base, NLP and prediction modelling to answer the user's queries"
                 image={usama} />
 
                 <Project title="Insurance Calculator"

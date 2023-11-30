@@ -5,9 +5,8 @@ function Project(props) {
   const [openModal, setOpenModal] = useState(false)
   return (
     <div class="border-2 border-black mx-7">
-        <Modal open={openModal} onClose={()=> setOpenModal(false)}/>
+        <Modal name={props.title} description={props.description} open={openModal} onClose={()=> setOpenModal(false)}/>
         <div class="bg-white rounded-lg">
-            <img src={props.image} alt="Placeholder pic" class="w-full h-48 rounded-md object-contain" />
             <div class="border-2 border-red-400 p-4 h-full">
               <div class="flex justify-center font-bold text-xl mb-2">{props.title}</div>
               <p class="flex justify-center font-bold text-base mb-2">{props.tech_stack}</p>
