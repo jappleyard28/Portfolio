@@ -4,7 +4,7 @@ import usama from '../images/usama.jpg'
 const Projects = () => {
     return (
         <div>
-            <h1 class='flex justify-center font-sans text-5xl mb-10'>Projects</h1>
+            <h1 class='flex justify-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white'>Projects</h1>
             <div class="grid grid-cols-4 gap-4">
                 <Project title="Ecommerce Web Scraper"
                 tech_stack="Python, BeautifulSoup"

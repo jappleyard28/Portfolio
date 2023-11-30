@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import resume from '../images/JackAppleyardCV.pdf'
 
 function Navbar() {
   return (
@@ -22,7 +23,7 @@ function Navbar() {
                     <Link to="/contact" class='px-8 hover:text-gray-500'>Contact</Link>
                 </li>
                 <li>
-                    <Link to="/cv" class='px-8 hover:text-gray-500'>CV</Link>
+                    <a href={resume} download="JackAppleyardCV" class='px-8 hover:text-gray-500'>CV</a>
                 </li>
             </ul>
         </nav>
