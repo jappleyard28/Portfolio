@@ -30,7 +30,11 @@ function Modal({open, onClose, name, description}) {
     if(!open) return null
 
     var slides = [];
-    if (name === "Calculator")
+    // if (name === "Calculator")
+    // {
+    //     slides = [];
+    // }
+    if (name === "Chess")
     {
         slides = [knightMov, pawnHigh, pawnMov, rookMov, startingPos];
     }
@@ -100,8 +104,8 @@ function Modal({open, onClose, name, description}) {
             </div>
             {/* image, title and description */}
             <div class="grid max-w-[75%] max-h-[75%] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 border-2 border-red-600 content-center">
-                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg border-2 border-black">
-                    <img src={slides[currentIndex]} alt={name} class="rounded-lg border-2 border-blue-600" />
+                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-2xl border-black shadow-2xl overflow-hidden">
+                    <img src={slides[currentIndex]} alt={name} class="rounded-lg  border-blue-600" />
                 </div>
                 {/* title and description */}
                 <div class="mr-auto place-self-center lg:col-span-7 border-2 border-black px-4">
@@ -123,30 +127,3 @@ function Modal({open, onClose, name, description}) {
 }
 
 export default Modal
-
-        // <div className='bg-white max-w-4xl max-h-min w-full m-auto py-16 px-4 relative group rounded-lg'>
-        //     {/* close button */}
-        //     <div className='flex justify-center items-center absolute top-0 right-0 h-16 w-16 m-2'>
-        //         <AiOutlineCloseCircle onClick={onClose} size={50} className='cursor-pointer'/>
-        //     </div>
-            
-        //     {/* image */}
-        //     <img src={slides[currentIndex]} alt={name} class="w-full h-80 rounded-md object-scale-down border-4 border-red-600" />
-
-        //     {/* title and description */}
-        //     <div className='rounded-lg border-4 border-violet-600'>
-        //         <div class="flex justify-center font-bold text-2xl border-4 border-indigo-600">{name}</div>
-                
-        //         <div className='border-2 border-black rounded-lg'>
-        //             <div class="text-center text-base mb-2">{description}</div>
-        //         </div>
-        //     </div>
-
-        //     {/* arrows */}
-        //     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        //         <IoIosArrowBack size={50}  onClick={prevSlide} />
-        //     </div>
-        //     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        //         <IoIosArrowForward size={50} onClick={nextSlide} />
-        //     </div>
-        // </div>
