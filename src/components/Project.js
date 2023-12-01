@@ -13,7 +13,7 @@ function Project(props) {
               {/* <p class="text-gray-700 text-base">{props.description}</p> */}
             </div>
             <div class="flex justify-center items-center border-2 border-purple-500 h-50 bottom-0">
-              <button onClick={() => setOpenModal(true)} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Learn More</button>
+              <button onClick={() => setOpenModal(true)} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-auto">Learn More</button>
             </div>
           </div>
     </div>
