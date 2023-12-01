@@ -30,26 +30,51 @@ function Modal({open, onClose, name, description}) {
     if(!open) return null
 
     var slides = [];
-    if (name === "Chess")
+    if (name === "Calculator")
     {
         slides = [knightMov, pawnHigh, pawnMov, rookMov, startingPos];
     }
-    else if (name === "AI Chatbot")
+    // else if (name === "Chess")
+    // {
+    //     slides = [];
+    // }
+    else if (name === "Ecommerce Web Scraper")
     {
-        slides = [uiPrev1, uiPrev2, uiPrev3];
+        slides = [image1, image2]
+    }
+    // else if (name === "Engineering for People Design Challenge")
+    // {
+    //     slides = []
+    // }
+    else if (name === "Gymbulum")
+    {
+        slides = [gym1, gym2]
     }
     else if (name === "Insurance Calculator")
     {
         slides = [insurCode, insurOutput]
     }
-    else if (name === "Ecommerce Web Scraper")
+    // else if (name === "JPMorgan Virtual Experience")
+    // {
+    //     slides = []
+    // }
+    else if (name === "AI Chatbot")
     {
-        slides = [image1, image2]
+        slides = [uiPrev1, uiPrev2, uiPrev3];
     }
-    else if (name === "Gymbulum")
-    {
-        slides = [gym1, gym2]
-    }
+    // else if (name === "Portfolio Website")
+    // {
+    //     slides = [];
+    // }
+    // else if (name === "Racing Game")
+    // {
+    //     slides = [];
+    // }
+    // else if (name === "Snake")
+    // {
+    //     slides = [];
+    // }
+    
 
     const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
@@ -63,6 +88,7 @@ function Modal({open, onClose, name, description}) {
         setCurrentIndex(newIndex)
     }
     
+    const newLocal = " border-2 border-black px-4 text-center max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400";
   return (
     <div className='flex justify-center items-center fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm'> {/* whole screen */}
         
@@ -80,7 +106,7 @@ function Modal({open, onClose, name, description}) {
                 {/* title and description */}
                 <div class="mr-auto place-self-center lg:col-span-7 border-2 border-black px-4">
                     <h1 class="flex justify-center max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-4xl dark:text-white">{name}</h1>
-                    <p class=" border-2 border-black px-4 text-center max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">{description}</p>
+                    <p class={newLocal}>{description}</p>
                 </div>
             </div>
             {/* arrows */}
