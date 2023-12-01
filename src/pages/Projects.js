@@ -7,7 +7,10 @@ const Projects = () => {
             <div class="grid sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 border-2 border-black px-40">
                 <Project title="Ecommerce Web Scraper"
                 tech_stack="Python, BeautifulSoup"
-                description="This is a program that utilises web scraping to compare different products from ebay using user input to decide which types of products should be analysed"/>
+                description="This is a program that utilises web scraping to compare different products from ebay using user input to decide which types of products should be 
+                analysed. It does this by using the user's query to create a custom URL and different tags are then retrived from that web page. The relevant data is then collected 
+                and organised into a list of dictionaries and they are then sorted into the correct order depending on the filters selected by the user. The list of different items 
+                is then outputted into a table format on the GUI ready to be viewed by the user"/>
 
                 <Project title="AI Chatbot"
                 tech_stack="Python, BeautifulSoup, Tensorflow, Tkinter"
@@ -59,7 +62,7 @@ const Projects = () => {
 
                 <Project title="Racing Game"
                 tech_stack="C++, OpenGL"
-                description="This is a racing game created using C++ and SDL" />
+                description="This is a racing game created using C++ and OpenGL" />
             </div>
         </div>
     );
