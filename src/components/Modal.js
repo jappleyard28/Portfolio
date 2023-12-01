@@ -67,24 +67,22 @@ function Modal({open, onClose, name, description}) {
     <div className='flex justify-center items-center fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm'> {/* whole screen */}
         
         
-        <div className='bg-white max-w-4xl max-h-min w-full m-auto py-16 px-4 relative group rounded-lg'>
-            {/* close button */}
+        <div className='flex bg-white min-w-[50%] max-w-[75%] min-h-[75%] m-auto px-4 relative group rounded-lg border-2 border-black align-middle'>
+            {/* button */}
             <div className='flex justify-center items-center absolute top-0 right-0 h-16 w-16 m-2'>
                 <AiOutlineCloseCircle onClick={onClose} size={50} className='cursor-pointer'/>
             </div>
-            
-            {/* image */}
-            <img src={slides[currentIndex]} alt={name} class="w-full h-80 rounded-md object-scale-down border-4 border-red-600" />
-
-            {/* title and description */}
-            <div className='rounded-lg border-4 border-violet-600'>
-                <div class="flex justify-center font-bold text-2xl border-4 border-indigo-600">{name}</div>
-                
-                <div className='border-2 border-black rounded-lg'>
-                    <div class="text-center text-base mb-2">{description}</div>
+            {/* image, title and description */}
+            <div class="grid max-w-[75%] max-h-[75%] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 border-2 border-red-600 content-center">
+                <div class="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg border-2 border-black">
+                    <img src={slides[currentIndex]} alt={name} class="rounded-lg border-2 border-blue-600" />
+                </div>
+                {/* title and description */}
+                <div class="mr-auto place-self-center lg:col-span-7 border-2 border-black px-4">
+                    <h1 class="flex justify-center max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-4xl dark:text-white">{name}</h1>
+                    <p class=" border-2 border-black px-4 text-center max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">{description}</p>
                 </div>
             </div>
-
             {/* arrows */}
             <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                 <IoIosArrowBack size={50}  onClick={prevSlide} />
@@ -94,23 +92,35 @@ function Modal({open, onClose, name, description}) {
             </div>
         </div>
         
-
-
-        {/* <div class="max-w-xl text-left flex flex-col items-center justify-center md:p-4 md:border border-slate-800 dark:border-slate-600 rounded-xl">
-            <div class="w-full rounded-xl flex-col xl:flex-row bg-white dark:bg-slate-900 shadow-md">
-                <img src={slides[currentIndex]} alt={name} class="w-full h-80 rounded-md object-scale-down" />
-
-                <div class="w-full p-3 flex flex-col justify-between h-auto overflow-auto lg:h-auto">
-                    <h1 class="text-left text-sm md:text-lg font-bold leading-normal">Space!</h1>
-                    <p class="text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
-                    since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but 
-                    also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
-                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-            </div>
-        </div> */}
     </div>
   )
 }
 
 export default Modal
+
+        // <div className='bg-white max-w-4xl max-h-min w-full m-auto py-16 px-4 relative group rounded-lg'>
+        //     {/* close button */}
+        //     <div className='flex justify-center items-center absolute top-0 right-0 h-16 w-16 m-2'>
+        //         <AiOutlineCloseCircle onClick={onClose} size={50} className='cursor-pointer'/>
+        //     </div>
+            
+        //     {/* image */}
+        //     <img src={slides[currentIndex]} alt={name} class="w-full h-80 rounded-md object-scale-down border-4 border-red-600" />
+
+        //     {/* title and description */}
+        //     <div className='rounded-lg border-4 border-violet-600'>
+        //         <div class="flex justify-center font-bold text-2xl border-4 border-indigo-600">{name}</div>
+                
+        //         <div className='border-2 border-black rounded-lg'>
+        //             <div class="text-center text-base mb-2">{description}</div>
+        //         </div>
+        //     </div>
+
+        //     {/* arrows */}
+        //     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+        //         <IoIosArrowBack size={50}  onClick={prevSlide} />
+        //     </div>
+        //     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+        //         <IoIosArrowForward size={50} onClick={nextSlide} />
+        //     </div>
+        // </div>
