@@ -2,7 +2,7 @@ const Education = () => {
     return (
         <div>
             {/* <h1 class='flex justify-center font-sans text-5xl mb-12'>Education</h1> */}
-            <h1 class="flex justify-center mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Education</h1>
+            <h1 class="flex justify-center text-5xl">Education</h1>
             <div class="max-w-2xl mx-auto">
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
                     <li class="mb-10 ml-4">
@@ -22,7 +22,7 @@ const Education = () => {
                         </ul>
                     </li>
                     <li class="mb-10 ml-4">
-                        <time class="mb-1 text-base font-normal leading-none text-gray-400 dark:text-gray-500">2016 - 2018</time>
+                        <time class="mb-1 text-lg font-normal leading-none text-gray-400 dark:text-gray-500">2016 - 2018</time>
                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white">A Levels, Christleton Sixth Form</h3>
                         <p class="text-lg font-normal text-gray-500 dark:text-gray-400">Key modules:</p>
                         <ul>
@@ -41,7 +41,7 @@ const Education = () => {
                         </ul>
                     </li>
                     <li class="mb-10 ml-4">
-                        <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2015 - 2016</time>
+                        <time class="mb-1 text-lg font-normal leading-none text-gray-400 dark:text-gray-500">2015 - 2016</time>
                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white">GCSEs, Christleton High School</h3>
                         <ul>
                             <li>

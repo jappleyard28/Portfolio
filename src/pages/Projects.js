@@ -3,8 +3,8 @@ import Project from "../components/Project";
 const Projects = () => {
     return (
         <div>
-            <h1 class='flex justify-center mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl'>Projects</h1>
-            <div class="grid sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 px-40">
+            <h1 class='flex justify-center text-5xl'>Projects</h1>
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 px-40 mt-4">
                 <Project title="Ecommerce Web Scraper"
                 tech_stack="Python, BeautifulSoup"
                 description="This is a program that utilises web scraping to compare different products from ebay using user input to decide which types of products should be 

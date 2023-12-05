@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div class='p-20'>
+    <div class='p-20 font-title'>
       <Navbar class="navbar" />
       <Routes>
         <Route index element={<Home />} />

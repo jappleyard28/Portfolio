@@ -109,7 +109,7 @@ function Modal({open, onClose, name, description}) {
                 </div>
                 {/* title and description */}
                 <div class="mr-auto place-self-center lg:col-span-7 border-2 border-black px-4">
-                    <h1 class="flex justify-center max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-4xl dark:text-white">{name}</h1>
+                    <h1 class="flex justify-center font-title text-4xl">{name}</h1>
                     <p class={newLocal}>{description}</p>
                 </div>
             </div>
