@@ -23,6 +23,9 @@ import uiPrev1 from '../images/Manoshi/ui_prev1.png'
 import uiPrev2 from '../images/Manoshi/ui_prev2.png'
 import uiPrev3 from '../images/Manoshi/ui_prev3.png'
 
+import snake1 from '../images/Snake/image1.png'
+import snake2 from '../images/Snake/image2.png'
+import snake3 from '../images/Snake/image3.png'
 
 function Modal({open, onClose, name, description}) {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -74,10 +77,10 @@ function Modal({open, onClose, name, description}) {
     // {
     //     slides = [];
     // }
-    // else if (name === "Snake")
-    // {
-    //     slides = [];
-    // }
+    else if (name === "Snake")
+    {
+        slides = [snake1, snake2, snake3];
+    }
     
 
     const prevSlide = () => {
