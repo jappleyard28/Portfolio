@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.08b53f5b.css",
-    "main.js": "/Portfolio/static/js/main.3ac7f3bf.js",
-    "static/media/image1.png": "/Portfolio/static/media/image1.30d26ce1531f5fdfc64f.png",
-    "static/media/grad.jpg": "/Portfolio/static/media/grad.16818ef24b57830ffca5.jpg",
-    "static/media/insur_code.png": "/Portfolio/static/media/insur_code.f1c23ca2d9a54472ffa2.png",
-    "static/media/insur_output.png": "/Portfolio/static/media/insur_output.92fb658d60763ba7a249.png",
-    "static/media/JackAppleyardCV.pdf": "/Portfolio/static/media/JackAppleyardCV.64deb47bf69e26c74247.pdf",
-    "static/media/image3.png": "/Portfolio/static/media/image3.d56c5866cdfad78bca80.png",
-    "static/media/image2.png": "/Portfolio/static/media/image2.f95aff436c4fe44a43a1.png",
-    "static/media/starting positions.png": "/Portfolio/static/media/starting positions.8930e21411c13da40c71.png",
-    "static/media/pawn movement.png": "/Portfolio/static/media/pawn movement.f9632caaf7acef20bace.png",
-    "static/media/pawn highlighting.png": "/Portfolio/static/media/pawn highlighting.d524e9692960d65ceead.png",
-    "static/media/rook movement.png": "/Portfolio/static/media/rook movement.3b0a219754e372161aa0.png",
-    "static/media/knight movement.png": "/Portfolio/static/media/knight movement.828627a262d19f932b8a.png",
-    "static/media/ui_prev2.png": "/Portfolio/static/media/ui_prev2.b1f87e11fa78be273446.png",
-    "static/media/ui_prev3.png": "/Portfolio/static/media/ui_prev3.2cabecf7d160b57b2220.png",
-    "static/media/ui_prev1.png": "/Portfolio/static/media/ui_prev1.18165ed459ae77908aaa.png",
-    "index.html": "/Portfolio/index.html",
-    "main.08b53f5b.css.map": "/Portfolio/static/css/main.08b53f5b.css.map",
-    "main.3ac7f3bf.js.map": "/Portfolio/static/js/main.3ac7f3bf.js.map"
+    "main.css": "/static/css/main.08b53f5b.css",
+    "main.js": "/static/js/main.cbcef80e.js",
+    "static/media/image1.png": "/static/media/image1.30d26ce1531f5fdfc64f.png",
+    "static/media/grad.jpg": "/static/media/grad.16818ef24b57830ffca5.jpg",
+    "static/media/insur_code.png": "/static/media/insur_code.f1c23ca2d9a54472ffa2.png",
+    "static/media/insur_output.png": "/static/media/insur_output.92fb658d60763ba7a249.png",
+    "static/media/JackAppleyardCV.pdf": "/static/media/JackAppleyardCV.64deb47bf69e26c74247.pdf",
+    "static/media/image3.png": "/static/media/image3.d56c5866cdfad78bca80.png",
+    "static/media/image2.png": "/static/media/image2.f95aff436c4fe44a43a1.png",
+    "static/media/starting positions.png": "/static/media/starting positions.8930e21411c13da40c71.png",
+    "static/media/pawn movement.png": "/static/media/pawn movement.f9632caaf7acef20bace.png",
+    "static/media/pawn highlighting.png": "/static/media/pawn highlighting.d524e9692960d65ceead.png",
+    "static/media/rook movement.png": "/static/media/rook movement.3b0a219754e372161aa0.png",
+    "static/media/knight movement.png": "/static/media/knight movement.828627a262d19f932b8a.png",
+    "static/media/ui_prev2.png": "/static/media/ui_prev2.b1f87e11fa78be273446.png",
+    "static/media/ui_prev3.png": "/static/media/ui_prev3.2cabecf7d160b57b2220.png",
+    "static/media/ui_prev1.png": "/static/media/ui_prev1.18165ed459ae77908aaa.png",
+    "index.html": "/index.html",
+    "main.08b53f5b.css.map": "/static/css/main.08b53f5b.css.map",
+    "main.cbcef80e.js.map": "/static/js/main.cbcef80e.js.map"
   },
   "entrypoints": [
     "static/css/main.08b53f5b.css",
-    "static/js/main.3ac7f3bf.js"
+    "static/js/main.cbcef80e.js"
   ]
 }
