@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.97460dad.css",
-    "main.js": "/static/js/main.79052322.js",
+    "main.js": "/static/js/main.d5da0b7c.js",
     "static/media/image1.png": "/static/media/image1.30d26ce1531f5fdfc64f.png",
     "static/media/grad.jpg": "/static/media/grad.16818ef24b57830ffca5.jpg",
     "static/media/insur_code.png": "/static/media/insur_code.f1c23ca2d9a54472ffa2.png",
@@ -19,10 +19,10 @@
     "static/media/ui_prev1.png": "/static/media/ui_prev1.18165ed459ae77908aaa.png",
     "index.html": "/index.html",
     "main.97460dad.css.map": "/static/css/main.97460dad.css.map",
-    "main.79052322.js.map": "/static/js/main.79052322.js.map"
+    "main.d5da0b7c.js.map": "/static/js/main.d5da0b7c.js.map"
   },
   "entrypoints": [
     "static/css/main.97460dad.css",
-    "static/js/main.79052322.js"
+    "static/js/main.d5da0b7c.js"
   ]
 }
