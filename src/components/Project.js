@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import Modal from './Modal'
-import image1 from '../images/EcomWebScrap/image1.png'
 
 function Project(props) {
   const [openModal, setOpenModal] = useState(false)
@@ -15,7 +14,7 @@ function Project(props) {
           <p class="mr-2 mb-2">Tag #1</p>
           <p class="mr-2 mb-2">Tag #2</p>
         </div> */}
-        <p class="text-md">{props.tech_stack}</p>
+        <p class="text-md text-center">{props.tech_stack}</p>
         <div class="flex justify-center flex-wrap mt-auto pt-3 text-md">
           <button onClick={() => setOpenModal(true)} class="bg-blue-500 hover:bg-blue-600 text-white text-lg font-bold py-1 px-4 rounded-full mt-auto">Learn More</button>
         </div>
