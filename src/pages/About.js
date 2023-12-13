@@ -1,5 +1,6 @@
 import grad from '../images/grad.jpg'
 import toby from '../images/toby_computer.jpg'
+import ai_chatbot from '../images/ai_chatbot.png'
 
 const About = () => {
     return (
@@ -23,7 +24,7 @@ const About = () => {
             <section>
                 <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-10 lg:grid-cols-12">
                     <div class="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
-                        <img src={toby} alt="Me" class="rounded-lg" />
+                        <img src={ai_chatbot} alt="Me" class="rounded-lg" />
                     </div> 
                     <div class="ml-auto place-self-center lg:col-span-7">
                         <h2 class='flex justify-center text-4xl pb-5'>Technical skills</h2>
