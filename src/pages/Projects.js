@@ -22,21 +22,21 @@ const Projects = () => {
                 detection for realistic vehicle-environment interactions. The integration of C++ and OpenGL contributed to a visually compelling and engaging gaming experience which 
                 bleneded technical proficiency with immersive gameplay" />
 
-                <Project title="Engineering For People Design Challenge"
-                tech_stack="Vue.js, node.js"
-                description="Group project to create an educational nutritional website with a quiz among other many other features in order to educate people about some of the vital 
-                sustainability issues in Lobitos and Piedritas (Peru). I organised regular meetings with my team to make sure everyone was on track so that we could all complete our
-                scheduled work on time." />
-                
-                <Project title="Calculator"
-                tech_stack="ASP.NET Core MVC"
-                description="Web-based calculator application which converts the button inputs into an expression to be calculated after the equals sign was pressed. It then checks
-                to make sure the expression is valid, then calculates the answer and outputts it to the answer box" />
+                <Project title="Snake"
+                tech_stack="C#, WPF, SQL"
+                description="Mathematical variation of the classic snake game that stores high scores into the database and updates them on the leaderboard. It formulates diverse
+                types of maths questions to be asked and assigns the correct answer to an answer block from 'A' to 'D' and assigns similar incorrect answers to the other answer 
+                blocks. Distinct power ups are picked up and stored into a stack that can be activated by pressing 'p'" />
                 
                 <Project title="JPMorgan Virtual Experience"
                 tech_stack="React"
                 description="I completed JPMorgan Chase's Software Engineering Job Simulation in which I had to create a to set up my dev environment and to build a live graph that 
                 displays a data feed for traders to monitor" />
+                
+                <Project title="Calculator"
+                tech_stack="ASP.NET Core MVC"
+                description="Web-based calculator application which converts the button inputs into an expression to be calculated after the equals sign was pressed. It then checks
+                to make sure the expression is valid, then calculates the answer and outputts it to the answer box" />
 
                 <Project title="Gym Tracker"
                 tech_stack="Flutter, Dart"
@@ -49,11 +49,11 @@ const Projects = () => {
                 create validation for where each piece is allowed to move. The AI was coded using Alpha-beta pruning on the negamax algorithm as an improvement in efficiency compared 
                 to the standard minimax algorithm and the nearest neighbour filtering method was used to extract the colour components" />
                 
-                <Project title="Snake"
-                tech_stack="C#, WPF, SQL"
-                description="Mathematical variation of the classic snake game that stores high scores into the database and updates them on the leaderboard. It formulates diverse
-                types of maths questions to be asked and assigns the correct answer to an answer block from 'A' to 'D' and assigns similar incorrect answers to the other answer 
-                blocks. Distinct power ups are picked up and stored into a stack that can be activated by pressing 'p'" />
+                <Project title="Engineering For People Design Challenge"
+                tech_stack="Vue.js, node.js"
+                description="Group project to create an educational nutritional website with a quiz among other many other features in order to educate people about some of the vital 
+                sustainability issues in Lobitos and Piedritas (Peru). I organised regular meetings with my team to make sure everyone was on track so that we could all complete our
+                scheduled work on time." />
 
                 <Project title="Insurance Calculator"
                 tech_stack="Python"
