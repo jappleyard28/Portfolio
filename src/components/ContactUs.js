@@ -62,6 +62,8 @@ export const ContactUs = () => {
                 ></textarea>
             </div>
             <div>
+                <div class="g-recaptcha" data-sitekey="6LdNJDYpAAAAAJMLSdYoruH9nMTVc76R6CI5PrMp"></div>
+                <br/>
                 <input type='submit' value="Send" class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none" />
             </div>
             </form>
